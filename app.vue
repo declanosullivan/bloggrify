@@ -44,19 +44,20 @@ useHead({
     ],
 })
 </script>
+
 <style lang="scss">
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
-.prose {
-    a {
-        text-decoration: none;
-    }
+    .prose {
+        a {
+            text-decoration: none;
+        }
 
-    img {
-        max-width: 80%;
-        margin: auto;
+        img {
+            max-width: 80%;
+            margin: auto;
+        }
     }
-}
 </style>
